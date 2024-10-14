@@ -21,7 +21,7 @@ public class CharacterSorting {
 			    }
 		    }
         }
-		
+
 		System.out.println(new String(a));
 	}
 }
