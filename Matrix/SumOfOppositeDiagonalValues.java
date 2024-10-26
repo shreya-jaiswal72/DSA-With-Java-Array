@@ -19,13 +19,7 @@ public class SumOfOppositeDiagonalValues {
         }   
         for(i=0;i<rsize;i++)
         {
-            for(j=0;j<csize;j++)
-            {
-                if(i!=j)
-                {
-                    sum=sum+a[i][j];
-                }
-            }
+                    sum=sum+a[i][rsize-i-1];
         }
         System.out.println("Sum of opposite Diagonal elements in the matrix = "+sum);
     }
