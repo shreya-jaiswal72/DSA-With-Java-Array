@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
+
 class Demo
 {
     static int[] rotateLeft(int a[] ,int r)
